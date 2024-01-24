@@ -4,9 +4,9 @@
 
 # ask user for an input number
 original = input("Please input your desired number: ")
-print(original)
-# create an empty variable to hold the reverse number
 
+# create an empty variable to hold the reverse number
+reverse = ""
 # use for loop to reverse
 
 # use if function to check if the number is a palindrome
