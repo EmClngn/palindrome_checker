@@ -3,7 +3,8 @@
 # pseudo code
 
 # ask user for an input number
-
+original = input("Please input your desired number: ")
+print(original)
 # create an empty variable to hold the reverse number
 
 # use for loop to reverse
