@@ -11,5 +11,8 @@ reverse = ""
 for i in range(len(original), 0, -1):
     reverse += original[i - 1]
 
-print("please print", reverse)
 # use if function to check if the number is a palindrome
+if original == reverse:
+    print("Yes,", original, "is a palindrome.")
+else:
+    print("No,", original, "is not a palindrome.")
